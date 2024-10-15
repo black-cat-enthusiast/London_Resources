@@ -1,0 +1,5 @@
+# Food Banks {-}
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("Figs/food.jpg")
+```

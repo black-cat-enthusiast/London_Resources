@@ -7,9 +7,7 @@ documentclass: book
 # url: your book url like https://bookdown.org/yihui/bookdown
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
-  This is a minimal example of using the bookdown package to write a book.
-  The HTML output format for this example is bookdown::gitbook,
-  set in the _output.yml file.
+  This is a navigation tool for available resources in London Ontario.
 link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
@@ -22,15 +20,37 @@ This is an organized directory to navigate available resources in London Ontario
 
 # Shelters {-}
 
+```{r,echo=FALSE,out.width="50%",fig.align='center'}
+knitr::include_graphics("Figs/shelter.jpg")
+```
+
 [London Salvation Army House of Hope](https://centreofhope.ca/)
 
 
 
-<!--chapter:end:01-intro.Rmd-->
+<!--chapter:end:01-Shelters.Rmd-->
 
 # Mental Health Resources {-}
 
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("Figs/mental.jpg")
+```
 
+<!--chapter:end:02-mental_health.Rmd-->
 
-<!--chapter:end:02-cross-refs.Rmd-->
+# Food Banks {-}
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("Figs/food.jpg")
+```
+
+<!--chapter:end:03-Food_banks.Rmd-->
+
+# Government Resources {-}
+
+```{r,echo=FALSE,out.width="50%",fig.align='center'}
+knitr::include_graphics("Figs/govt.jpg")
+```
+
+<!--chapter:end:04-Govt_Resources.Rmd-->
 

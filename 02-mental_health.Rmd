@@ -1,0 +1,5 @@
+# Mental Health Resources {-}
+
+```{r,echo=FALSE,fig.align='center'}
+knitr::include_graphics("Figs/mental.jpg")
+```
